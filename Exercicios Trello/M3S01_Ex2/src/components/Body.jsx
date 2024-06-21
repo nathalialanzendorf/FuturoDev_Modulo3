@@ -1,4 +1,4 @@
-import Greeting from './Greeting'
+import Greeting from './Message'
 
 function Body() {
 
