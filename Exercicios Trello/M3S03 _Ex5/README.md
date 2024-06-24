@@ -10,6 +10,4 @@ docker images
 
 docker push nathalialanzendorf/m3s03ex5:0.1
 
-
-
-docker pull nathalialanzendor   f/hello
+docker pull nathalialanzendorf/m3s03ex5
