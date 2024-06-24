@@ -1,0 +1,20 @@
+#define imagem base
+FROM openjdk:17-jdk-slim-buster
+
+#define autores do dockerfile
+LABEL authors="Nathalia Lanzendorf"
+
+#define caminho de execução da aplicação
+WORKDIR /app
+
+#copia os arquivos da pasta X para a pasta Y
+COPY target/docker-0.0.1-SNAPSHOT.jar app.jar
+
+#comando de execução da aplicação
+ENTRYPOINT java -jar app.jar
+
+#instala o java
+##RUN apt-get install openjdk
+
+##Executar 
+## docker build .
