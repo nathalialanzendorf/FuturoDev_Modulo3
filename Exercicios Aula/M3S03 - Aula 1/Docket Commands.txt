@@ -1,0 +1,15 @@
+docker run hello-world
+
+docker pull hello-world
+
+docker run -it ubuntu bash
+
+apt-get update
+
+apt-get install vim
+
+
+https://github.com/felipewom/docker-compose-postgres
+docker-compose up
+
+https://docs.google.com/presentation/d/1VPDmlTJaXRDM1CosviA4rfd-0jz5Frk2o8hl46gnTrE/edit#slide=id.g10d952ca74f_0_79
