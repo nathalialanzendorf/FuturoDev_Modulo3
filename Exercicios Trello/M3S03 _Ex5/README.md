@@ -10,4 +10,6 @@ docker images
 
 docker push nathalialanzendorf/m3s03ex5:0.1
 
+# **Comando pull**
+
 docker pull nathalialanzendorf/m3s03ex5
