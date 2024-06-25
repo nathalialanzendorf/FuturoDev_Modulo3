@@ -21,9 +21,9 @@ jobs:
           
     - uses: actions/checkout@v4
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag nathalialanzendorf/m3s3a3:latest
+      run: docker build . --file Dockerfile --tag nathalialanzendorf/m3s3a5:latest
 
 
     - name: Push Docker image
       run: |
-        docker push nathalialanzendorf/m3s3a3:latest
+        docker push nathalialanzendorf/m3s3a5:latest
