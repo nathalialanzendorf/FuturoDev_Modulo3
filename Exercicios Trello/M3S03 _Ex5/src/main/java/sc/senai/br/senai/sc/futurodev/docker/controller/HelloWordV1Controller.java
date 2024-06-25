@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/hello/v1")
-public class HelloV1Controller {
+@RequestMapping("/api/v1/hello")
+public class HelloWordV1Controller {
 
     @GetMapping
     public ResponseEntity<String> findAll() {

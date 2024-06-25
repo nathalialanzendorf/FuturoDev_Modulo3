@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>sc.senai.br.senai.sc.futurodev</groupId>
-	<artifactId>hello</artifactId>
+	<artifactId>docker</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>hello</name>
-	<description>[M3S03] Ex. 5 - Executar o Dockerfile em uma Pipeline no GitHub Actions</description>
+	<name>docker</name>
+	<description>Docket compose aula 2</description>
 	<url/>
 	<licenses>
 		<license/>
